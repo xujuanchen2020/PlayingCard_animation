@@ -14,17 +14,6 @@ class ViewController: UIViewController {
 
     @IBOutlet var cardViews: [PlayingCardView]!
     
-    @objc func flipCard(_ recognizer: UITapGestureRecognizer) {
-        switch recognizer.state {
-        case .ended:
-            if let chosenCardView = recognizer.view as? PlayingCardView {
-                chosenCardView.isFaceUp = !chosenCardView.isFaceUp
-            }
-        default:
-            break
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,6 +31,23 @@ class ViewController: UIViewController {
             cardView.rank = card.rank.order
             cardView.suit = card.suit.rawValue
             cardView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(flipCard(_:))))
+        }
+    }
+    
+    @objc func flipCard(_ recognizer: UITapGestureRecognizer) {
+        switch recognizer.state {
+        case .ended:
+            if let chosenCardView = recognizer.view as? PlayingCardView {
+                UIView.transition(
+                    with: chosenCardView,
+                    duration: 0.6,
+                    options: [.transitionFlipFromLeft],
+                    animations: {
+                    chosenCardView.isFaceUp = !chosenCardView.isFaceUp
+                })
+            }
+        default:
+            break
         }
     }
 }
