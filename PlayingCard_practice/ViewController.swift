@@ -23,6 +23,15 @@ class ViewController: UIViewController {
         return behavior
     }()
     
+    lazy var itemBehavior: UIDynamicItemBehavior = {
+        let behavior = UIDynamicItemBehavior()
+        behavior.allowsRotation = false
+        behavior.elasticity = 1.0
+        behavior.resistance = 0
+        animator.addBehavior(behavior)
+        return behavior
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,6 +50,7 @@ class ViewController: UIViewController {
             cardView.suit = card.suit.rawValue
             cardView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(flipCard(_:))))
             collisionBehavior.addItem(cardView)
+            itemBehavior.addItem(cardView)
             let push = UIPushBehavior(items: [cardView], mode: .instantaneous)
             push.angle = (2*CGFloat.pi).arc4random
             push.magnitude = CGFloat(1.0) + CGFloat(2.0).arc4random
