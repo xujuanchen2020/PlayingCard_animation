@@ -16,6 +16,7 @@
 		1133ECB6255995E70079FB92 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133ECB5255995E70079FB92 /* PlayingCard.swift */; };
 		1133ECB82559998D0079FB92 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133ECB72559998D0079FB92 /* PlayingCardDeck.swift */; };
 		1133ECBA2559A0490079FB92 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133ECB92559A0490079FB92 /* PlayingCardView.swift */; };
+		117CE2032562DFEB006EBDB3 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CE2022562DFEB006EBDB3 /* CardBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1133ECB5255995E70079FB92 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		1133ECB72559998D0079FB92 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 		1133ECB92559A0490079FB92 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		117CE2022562DFEB006EBDB3 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				1133ECA925597E410079FB92 /* Assets.xcassets */,
 				1133ECB425597E710079FB92 /* Supporting */,
 				1133ECA425597E3B0079FB92 /* ViewController.swift */,
+				117CE2022562DFEB006EBDB3 /* CardBehavior.swift */,
 				1133ECA625597E3B0079FB92 /* Main.storyboard */,
 				1133ECAE25597E410079FB92 /* Info.plist */,
 				1133ECB5255995E70079FB92 /* PlayingCard.swift */,
@@ -161,6 +164,7 @@
 				1133ECB82559998D0079FB92 /* PlayingCardDeck.swift in Sources */,
 				1133ECA125597E3B0079FB92 /* AppDelegate.swift in Sources */,
 				1133ECA325597E3B0079FB92 /* SceneDelegate.swift in Sources */,
+				117CE2032562DFEB006EBDB3 /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
