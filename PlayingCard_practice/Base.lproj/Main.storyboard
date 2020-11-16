@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="mTM-pK-Jhs" appends="YES" id="k0y-qw-0Ui"/>
@@ -36,7 +36,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ljJ-mG-X1Q" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -48,7 +48,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Gd-rb-e8d" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -60,23 +60,11 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oUQ-ud-BC3" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
-                                <rect key="frame" x="147" y="76" width="64" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
-                                        <integer key="value" value="13"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ogi-nQ-SdI" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
-                                <rect key="frame" x="281" y="88" width="64" height="96"/>
+                                <rect key="frame" x="290" y="88" width="64" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
@@ -84,7 +72,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="miL-gV-FWh" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -96,7 +84,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rpZ-wa-njN" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -108,7 +96,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kie-kd-ocU" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -120,7 +108,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hvb-Ol-hlc" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -132,7 +120,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rbe-X2-CA0" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -144,7 +132,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MkS-AH-sH3" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
@@ -156,7 +144,19 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="13"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oUQ-ud-BC3" customClass="PlayingCardView" customModule="PlayingCard_practice" customModuleProvider="target">
+                                <rect key="frame" x="162" y="76" width="64" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
